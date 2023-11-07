@@ -20,9 +20,9 @@
  .bg-purple {
 	 background-color: #f4e8ff;
 }
+
  .overviewcard .overview-subcard {
 	 padding: 10px 15px;
-	 margin: 0 20px 0 0;
 	 border-radius: 15px;
 	 font-weight: bold;
 }
@@ -48,7 +48,7 @@
 	/* Your CSS rules for larger devices go here */
 	/* For example, you can change font size, layout, or other styles */
 	 .product-overview {
-		 width: 45vw;
+		 width: 50vw;
 	}
 }
  @media screen and (max-width: 1200px) {
@@ -57,5 +57,11 @@
 	 .product-overview {
 		 width: 100vw;
 	}
+
+	.overviewcard .overview-subcard {
+		
+		margin-top: 10px;
+		
+   }
 }
  

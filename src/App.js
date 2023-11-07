@@ -7,12 +7,7 @@ import Timesales from "./component/Timesales";
 
 function App() {
   return (
-    // <Router>
-    //   <Header></Header>
-    //   <Routes>
-    //     <Route /> 
-    //   </Routes>
-    // </Router>
+    
     <>
     <h1 className="text-center my-3">Dashboard</h1>
     <Overview />

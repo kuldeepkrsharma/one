@@ -79,28 +79,42 @@ function Overview() {
     <div className="d-lg-flex justify-content-between">
       <div className=" px-4 pb-5 overview-main-card card-shadow">
         <Title heading="Today's sales" subheading="Sales Summary" />
-        <div className="mt-5 pt-4 d-lg-flex justify-content-between overviewcard">
+        <div className="mt-lg-5 pt-4 overviewcard">
+        <div className="row">
+          <div className="col-lg-3 col-6">
           <div className="bg-pink overview-subcard">
             <img src={img1}></img>
             <h3 className="">{totalsales}</h3>
             <div className="title">Total sales</div>
           </div>
 
+          </div>
+          <div className="col-lg-3 col-6">
           <div className="bg-orange overview-subcard">
             <img src={img2}></img>
             <h3 className="">{totalorder}</h3>
             <div className="title">Total order</div>
           </div>
+
+          </div>
+          <div className="col-lg-3 col-6">
           <div className="bg-green overview-subcard">
             <img src={img3}></img>
             <h3 className="">{productsold}</h3>
-            <div className="title">Total product sold</div>
+            <div className="title">Product sold</div>
           </div>
+
+          </div>
+          <div className="col-lg-3 col-6">
           <div className="bg-purple overview-subcard">
             <img src={img4}></img>
             <h3 className="">{productsold}</h3>
             <div className="title">Highest price</div>
           </div>
+
+          </div>
+        </div>
+
         </div>
       </div>
 
